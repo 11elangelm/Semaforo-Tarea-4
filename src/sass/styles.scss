@@ -1,0 +1,37 @@
+$frame-size: 100px;
+$light-size: 100px;
+$padding: 10px;
+body{
+	margin: 0 auto;
+}
+.frame{
+	background-color: black;
+	padding: $padding;
+	width: $frame-size;
+}
+button, .frame{
+	margin: 0 auto;
+}
+button{
+	display: block;
+}
+.light{
+	border-radius: $light-size*0.5;
+	height: $light-size;
+	margin: $padding 0px $padding;
+	opacity: 0.4;
+	transition: opacity 0.5s linear;
+	width: $light-size;
+}
+.red{
+	background-color: red;
+}
+.yellow{
+	background-color: yellow;
+}
+.green{
+	background-color: green;
+}
+.on{
+	opacity: 1;
+}
